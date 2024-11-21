@@ -1,0 +1,8 @@
+/* Genius can add custom styles here if needed */
+
+.jumbotron {
+    background-image: url('https://static.clubs.nfl.com/image/upload/chargers/hz9legd8ytzopkj3y589');
+    background-size: cover;
+    color: #007cc2;
+}
+
