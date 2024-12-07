@@ -1,0 +1,144 @@
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: "Droid Sans" "Inconsolata" "Tangerine" "Sofia", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #111;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4.2rem;
+  margin-bottom: 0;
+  color: #000000
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+p {
+  color: #fff
+}
+
+.vampire-red {
+  color: #bb0a1e;background-color: #080808
+}
+
+section > p {
+    font-size: 20px;
+}
+.bold {
+  font-weight: 900;
+}
+
+.grey {
+  color: #74809a;
+  font-family: "Exo 2" "Signika Negative";
+  font-size: 24px;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #902525;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+.font-size-24 {
+  font-size: 22px;
+  font-weight: 600;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: #e2e4df;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption li {
+  margin: 15px 15px 15px 15px;
+}
+
+.img-text {
+  color: #902525;
+  font-family: font-family: "Droid Sans" "Inconsolata" "Tangerine" "Sofia", sans-serif;
+  font-size: 18px;
+}
+
+.highlight-dark-purple {
+  background-color: #4B006E;
+  color: #e2e4df;
+}
+
+
+li {
+  font-family: Trebuchet MS;
+  color: #483C32;
+  font-size: 19px;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 32px;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
